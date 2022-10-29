@@ -19,12 +19,12 @@ function App() {
   ///////////////////////////
   const addTask = () => {
     if (newTask) {
-      let num = toDo.length + 1;
-      let newEntry = { id: num, title: newTask, status: false };
+      let index = toDo.length + 1;
+      let newEntry = { id: index, title: newTask, status: false };
       setToDo([...toDo, newEntry]);
       setNewTask("");
     } else {
-      alert("Please add a task first !");
+      alert("Please enter a task name first !");
     }
   };
 
@@ -77,7 +77,7 @@ function App() {
     <div className="container App">
       <br />
       <br />
-      <h2>To Do List App (ReactJS)</h2>
+      <h1 style={{ fontWeight: "700" }}>To Do List App (ReactJS)</h1>
       <br />
       <br />
 

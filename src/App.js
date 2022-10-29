@@ -77,7 +77,7 @@ function App() {
     <div className="container App">
       <br />
       <br />
-      <h1 style={{ fontWeight: "700" }}>To Do List App (ReactJS)</h1>
+      <h1 style={{ fontWeight: "700" }}>To Do List App</h1>
       <br />
       <br />
 

@@ -1,3 +1,35 @@
+This assignment was given a task to create a functional to-do app.
+
+# Tools/Technologies Used in the assignment -
+
+- **React (v18.2.0)**
+- **bootstrap (v5.2.2)**
+- **react-fontawesome (v0.2.0)**
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+# Live preview of the app :arrow_right: [Live preview](https://to-do-90.netlify.app)
+
+# Images preview of the app for different screen-
+
+## Large screen view -
+
+![Large-width screen view](markdown-assets/large.png)
+
+## Medium screen view -
+
+![Meduim-width screen view](markdown-assets/medium.png)
+
+## Small-width screen view -
+
+![Small-width screen view](markdown-assets/mobile.png)
+
+&nbsp;
+
+&nbsp;
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

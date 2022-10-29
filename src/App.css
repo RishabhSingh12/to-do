@@ -1,5 +1,12 @@
 body {
-  background-color: #333;
+  /* background-color: #333; */
+  background: #00467f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #00467f,
+    #a5cc82
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00467f, #a5cc82);
   color: #fff;
 }
 
@@ -8,14 +15,20 @@ body {
 }
 
 .taskBg {
-  background-color: rgb(136, 134, 134);
-  border-radius: 6px;
+  background-color: rgb(13, 48, 154);
+  border-radius: 10px;
   margin-bottom: 20px;
   padding: 10px 140px 10px 15px;
   text-align: left;
   font-size: 22px;
   position: relative;
 }
+
+/* .button1 {
+  border-radius: 50px;
+  background: #1f8fe5;
+  box-shadow: 20px 20px 60px #145d95, -20px -20px 60px #2ac1ff;
+} */
 
 .taskBg div {
   display: flex;

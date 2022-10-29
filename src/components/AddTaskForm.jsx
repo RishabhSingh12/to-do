@@ -8,10 +8,12 @@ const AddTaskForm = ({ newTask, setNewTask, addTask }) => {
             value={newTask}
             onChange={(e) => setNewTask(e.target.value)}
             className="form-control form-control-lg"
+            placeholder="Please add a task !"
+            required
           />
         </div>
         <div className="col-auto">
-          <button onClick={addTask} className="btn btn-lg btn-success">
+          <button onClick={addTask} className="btn btn-lg btn-primary">
             Add Task
           </button>
         </div>

@@ -23,6 +23,8 @@ function App() {
       let newEntry = { id: num, title: newTask, status: false };
       setToDo([...toDo, newEntry]);
       setNewTask("");
+    } else {
+      alert("Please add a task first !");
     }
   };
 
@@ -99,7 +101,7 @@ function App() {
       {toDo && toDo.length ? (
         ""
       ) : (
-        <h1 style={{ marginTop: "30px" }}>"No Tasks..."</h1>
+        <h2 style={{ marginTop: "30px" }}>No Tasks added ...</h2>
       )}
 
       <ToDo
